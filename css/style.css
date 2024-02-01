@@ -72,9 +72,24 @@ h5 {
   border-radius: 20%;
 }
 
+.header .inner .header-text .header-p1 {
+  color: var(--theme-white);
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 10rem;
+}
+
+.header .inner .header-text .header-p2 {
+  text-align: center;
+  color: var(--theme-white);
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 10rem;
+}
+
 .header .inner .nav {
   display: flex;
-  width: 70%;
+  width: 40%;
   justify-content: flex-end;
   padding-right: 3rem;
 }
