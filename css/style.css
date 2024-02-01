@@ -72,16 +72,20 @@ h5 {
   border-radius: 20%;
 }
 
-.header .inner .header-text .header-p1 {
+.header .inner .header-text {
   color: var(--theme-white);
+}
+
+.header .inner .header-text .header-p1 {
   font-size: 40px;
-  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-family: "Times New Roman", Arial, Helvetica, sans-serif, serif;
   padding-right: 10rem;
+  text-shadow: rgba(228, 178, 17, 0.87) 0px 0px 10px;
 }
 
 .header .inner .header-text .header-p2 {
   text-align: center;
-  color: var(--theme-white);
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   padding-right: 10rem;
@@ -119,4 +123,24 @@ h5 {
 
 .header .inner .nav ul li.active a {
   color: var(--theme-white);
+}
+
+/* -----------------media queries------------------ */
+
+/* hide hamburger menu and x icons on larger screens */
+nav .fa-solid {
+  display: none;
+}
+/* small screens */
+@media only screen and (max-width: 600px) {
+  #header {
+    background-image: none;
+  }
+  .header-text {
+    font-size: 16px;
+  }
+  .header-text .header-p1,
+  .header-text .header-p2 {
+    font-size: 26px;
+  }
 }
