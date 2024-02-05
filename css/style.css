@@ -70,6 +70,7 @@ h5 {
   width: 25%;
   height: 25%;
   border-radius: 20%;
+  pointer-events: none;
 }
 
 .header .inner .header-text {
@@ -140,7 +141,7 @@ h5 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .hero .hero-inner .text-wrap h1 {
