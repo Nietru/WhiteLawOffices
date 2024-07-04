@@ -47,7 +47,7 @@ h5 {
 }
 
 .inner {
-  border-size: 2px;
+  border: 2px;
   display: flex;
   justify-content: space-between;
   align-items: center;
